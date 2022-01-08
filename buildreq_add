@@ -1,15 +1,2 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
-nose
-coverage
-WebTest
-lxml
-WebOb
-cssselect
-six
-python-mock
-pyquery
-WSGIProxy2
-PasteDeploy
-beautifulsoup4
-waitress

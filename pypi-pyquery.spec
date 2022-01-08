@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyquery
 Version  : 1.4.3
-Release  : 67
+Release  : 68
 URL      : https://files.pythonhosted.org/packages/e9/27/6db65c90587856a229539df703679fa81d17089b74432abfd74a0dd2ca13/pyquery-1.4.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e9/27/6db65c90587856a229539df703679fa81d17089b74432abfd74a0dd2ca13/pyquery-1.4.3.tar.gz
 Summary  : A jquery-like library for python
@@ -13,25 +13,9 @@ License  : BSD-3-Clause
 Requires: pypi-pyquery-license = %{version}-%{release}
 Requires: pypi-pyquery-python = %{version}-%{release}
 Requires: pypi-pyquery-python3 = %{version}-%{release}
-BuildRequires : PasteDeploy
-BuildRequires : WSGIProxy2
-BuildRequires : WebOb
-BuildRequires : WebTest
-BuildRequires : beautifulsoup4
 BuildRequires : buildreq-distutils3
-Provides: pyquery
-Provides: pyquery-python
-Provides: pyquery-python3
-BuildRequires : coverage
-BuildRequires : cssselect
-BuildRequires : lxml
-BuildRequires : nose
 BuildRequires : pypi(cssselect)
 BuildRequires : pypi(lxml)
-BuildRequires : pyquery
-BuildRequires : python-mock
-BuildRequires : six
-BuildRequires : waitress
 
 %description
 pyquery allows you to make jquery queries on xml documents. The API is as much
@@ -76,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641477747
+export SOURCE_DATE_EPOCH=1641604026
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
