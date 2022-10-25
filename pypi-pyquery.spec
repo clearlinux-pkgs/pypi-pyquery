@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyquery
 Version  : 1.4.3
-Release  : 74
+Release  : 75
 URL      : https://files.pythonhosted.org/packages/e9/27/6db65c90587856a229539df703679fa81d17089b74432abfd74a0dd2ca13/pyquery-1.4.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e9/27/6db65c90587856a229539df703679fa81d17089b74432abfd74a0dd2ca13/pyquery-1.4.3.tar.gz
 Summary  : A jquery-like library for python
