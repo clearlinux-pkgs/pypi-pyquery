@@ -7,7 +7,7 @@
 #
 Name     : pypi-pyquery
 Version  : 2.0.1
-Release  : 81
+Release  : 82
 URL      : https://files.pythonhosted.org/packages/ae/48/79e774ea00b671d08867f06d9258203be81834236c150ac00e942d8fc4db/pyquery-2.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ae/48/79e774ea00b671d08867f06d9258203be81834236c150ac00e942d8fc4db/pyquery-2.0.1.tar.gz
 Summary  : A jquery-like library for python
